@@ -21,7 +21,7 @@ function App() {
 ### Autocomplete
 The icon prop is type-safe, so you can use autocomplete to see all available icons.
 
-<img src="/media/auto.png" alt="Icon Component Example">
+<img src="https://github.com/maxpaleo/lucide-react-component/raw/main/media/auto.png" alt="Icon Component Example">
 
 
 ### Props
