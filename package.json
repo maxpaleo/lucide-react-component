@@ -1,0 +1,37 @@
+{
+  "name": "lucide-icon-component",
+  "version": "1.0.0",
+  "description": "A React component for Lucide Icons",
+  "main": "build/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "clean-tgz": "rm -f *.tgz",
+    "prepublishOnly": "npm run clean-tgz"
+  },
+  "keywords": [
+    "lucide",
+    "icon",
+    "lucide-icon",
+    "react icon",
+    "svg icon",
+    "icon component"
+  ],
+  "author": "Max Pauwels",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "typescript": "^5.5.3"
+  },
+  "types": "build/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "lucide-react": "^0.408.0",
+    "react": "^18.3.1"
+  }
+}
