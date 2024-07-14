@@ -13,9 +13,7 @@ npm i lucide-icon-component
 ```jsx
 import Icon from 'lucide-icon-component';
 
-function App() {
-  return <Icon icon="expand" size={24} />;
-}
+<Icon icon="user-check" size={24} />;
 ```
 
 ### Autocomplete
