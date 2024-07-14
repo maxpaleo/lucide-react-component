@@ -1,2 +1,2 @@
 # lucide-icon-component
-Lucide Icons as a single React component.
+A React component for Lucide Icons.

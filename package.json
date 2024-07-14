@@ -1,6 +1,6 @@
 {
   "name": "lucide-icon-component",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A React component for Lucide Icons",
   "main": "build/index.js",
   "directories": {
@@ -32,6 +32,6 @@
   },
   "dependencies": {
     "lucide-react": "^0.408.0",
-    "react": "^18.3.1"
+    "react": "^17.0.0 || ^18.0.0"
   }
 }
