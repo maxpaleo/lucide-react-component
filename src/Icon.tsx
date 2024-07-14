@@ -1,7 +1,7 @@
 import React from "react";
 import lucideIconMap, { LucideIconNames } from "./lucide-icon-config";
 interface IconProps {
-  icon?: string;
+  icon: LucideIconNames;
   size?: number;
   className?: string;
   strokeWidth?: number;
