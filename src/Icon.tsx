@@ -5,7 +5,6 @@ interface IconProps {
   size?: number;
   className?: string;
   strokeWidth?: number;
-  defaultIcon?: string;
 }
 
 const Icon: React.FC<IconProps> = ({
@@ -13,17 +12,14 @@ const Icon: React.FC<IconProps> = ({
   size = 18,
   className = "",
   strokeWidth = 2,
-  defaultIcon,
 }) => {
-  const providedIcon = icon || (defaultIcon as string);
+  const providedIcon = icon;
   const iconMap = lucideIconMap;
-  const iconData =
-    iconMap[providedIcon as LucideIconNames] ||
-    (defaultIcon && iconMap[defaultIcon as LucideIconNames]);
+  const iconData = iconMap[providedIcon as LucideIconNames];
 
   if (!iconData) {
     console.error(`Icon "${providedIcon}" not found.`);
-    return null; // Or some fallback UI, such as a default icon
+    return null;
   }
 
   const IconComponent = iconData.component;
