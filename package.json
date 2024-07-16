@@ -1,6 +1,6 @@
 {
   "name": "lucide-icon-component",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A React component for Lucide Icons",
   "main": "build/index.js",
   "directories": {
@@ -20,6 +20,10 @@
     "svg icon",
     "icon component"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maxpaleo/lucide-react-component.git"
+  },
   "author": "Max Pauwels",
   "license": "ISC",
   "devDependencies": {
