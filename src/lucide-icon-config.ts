@@ -468,6 +468,17 @@ import {
   LucideSignalZero,
   LucideUpload,
   LucideFileUp,
+  LucideSun,
+  LucideMoon,
+  LucideTvMinimal,
+  LucideLaptopMinimal,
+  LucideSunMoon,
+  LucideEclipse,
+  LucideSunDim,
+  LucideSunMedium,
+  LucideSunrise,
+  LucideRainbow,
+  LucideSunset,
 } from "lucide-react";
 
 export type LucideIconType = {
@@ -499,6 +510,76 @@ const lucideIconMap = {
       "renew",
       "replay",
       "revert",
+    ],
+  },
+  sun: {
+    component: LucideSun,
+    tags: [
+      "sun",
+      "brightness",
+      "light",
+      "weather",
+      "solar",
+      "energy",
+      "power",
+      "electricity",
+      "energy",
+      "electric",
+      "charge",
+      "electric charge",
+    ],
+  },
+  "sun-moon": {
+    component: LucideSunMoon,
+    tags: ["sun", "moon", "brightness"],
+  },
+  eclipse: {
+    component: LucideEclipse,
+    tags: ["sun", "moon", "brightness"],
+  },
+  "sun-dim": {
+    component: LucideSunDim,
+    tags: ["sun", "brightness"],
+  },
+  "sun-medium": {
+    component: LucideSunMedium,
+    tags: ["sun", "brightness"],
+  },
+  sunrise: {
+    component: LucideSunrise,
+  },
+  sunset: {
+    component: LucideSunset,
+  },
+  rainbow: {
+    component: LucideRainbow,
+  },
+  moon: {
+    component: LucideMoon,
+  },
+  "tv-minimal": {
+    component: LucideTvMinimal,
+    tags: [
+      "tv",
+      "television",
+      "display",
+      "screen",
+      "monitor",
+      "device",
+      "technology",
+      "electronic",
+      "gadget",
+    ],
+  },
+  "laptop-minimal": {
+    component: LucideLaptopMinimal,
+    tags: [
+      "laptop",
+      "computer",
+      "device",
+      "technology",
+      "electronic",
+      "gadget",
     ],
   },
   "cloud-off": {
