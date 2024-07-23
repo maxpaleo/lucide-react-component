@@ -480,6 +480,7 @@ import {
   LucideRainbow,
   LucideSunset,
   LucideFingerprint,
+  LucideKeySquare,
 } from "lucide-react";
 
 export type LucideIconType = {
@@ -512,6 +513,10 @@ const lucideIconMap = {
       "replay",
       "revert",
     ],
+  },
+  "key-square": {
+    component: LucideKeySquare,
+    tags: ["key", "security", "password", "login", "authentication", "secure"],
   },
   fingerprint: {
     component: LucideFingerprint,
