@@ -496,6 +496,7 @@ import {
   LucidePlane,
   LucidePlaneLanding,
   LucidePlaneTakeoff,
+  LucideBuilding,
 } from "lucide-react";
 
 export type LucideIconType = {
@@ -2622,6 +2623,20 @@ const lucideIconMap = {
       "recipe",
       "bake",
       "cupcake",
+    ],
+  },
+  building: {
+    component: LucideBuilding,
+    tags: [
+      "building",
+      "home",
+      "house",
+      "office",
+      "work",
+      "apartment",
+      "flat",
+      "store",
+      "business",
     ],
   },
   plane: {
