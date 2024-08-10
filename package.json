@@ -1,6 +1,6 @@
 {
   "name": "lucide-icon-component",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "A React component for Lucide Icons",
   "main": "build/index.js",
   "directories": {

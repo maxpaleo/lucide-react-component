@@ -497,6 +497,9 @@ import {
   LucidePlaneLanding,
   LucidePlaneTakeoff,
   LucideBuilding,
+  LucideLaugh,
+  LucideSmile,
+  LucideMeh,
 } from "lucide-react";
 
 export type LucideIconType = {
@@ -2141,6 +2144,47 @@ const lucideIconMap = {
 
     tags: ["sliders", "horizontal", "adjust", "control", "settings", "options"],
   },
+  laugh: {
+    component: LucideLaugh,
+    tags: [
+      "happy",
+      "joy",
+      "smile",
+      "face",
+      "emotion",
+      "feeling",
+      "care",
+      "affection",
+      "passion",
+      "romance",
+      "valentine",
+      "valentines",
+      "valentines day",
+      "heart",
+    ],
+  },
+  meh: {
+    component: LucideMeh,
+    tags: [
+      "emoji",
+      "neutral",
+      "face",
+      "emotion",
+      "sad",
+      "frown",
+      "negative",
+      "bad",
+      "upset",
+    ],
+  },
+  smile: {
+    component: LucideSmile,
+    tags: ["happy", "joy", "smile", "face", "emotion", "feeling", "care"],
+  },
+  angry: {
+    component: LucideAngry,
+    tags: ["emoji", "anger", "face", "emotion"],
+  },
   calendar: {
     component: LucideCalendar,
     tags: [
@@ -2344,10 +2388,6 @@ const lucideIconMap = {
     tags: ["and", "operator", "then", "code", "&&"],
   },
   anchor: { component: LucideAnchor, tags: ["ship"] },
-  angry: {
-    component: LucideAngry,
-    tags: ["emoji", "anger", "face", "emotion"],
-  },
   annoyed: {
     component: LucideAnnoyed,
     tags: ["emoji", "nuisance", "face", "emotion"],
