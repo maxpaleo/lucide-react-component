@@ -2252,21 +2252,6 @@ const lucideIconMap = {
       "share",
     ],
   },
-  dribble: {
-    component: LucideDribbble,
-    tags: [
-      "logo",
-      "social media",
-      "social",
-      "dribble",
-      "share",
-      "post",
-      "send",
-      "message",
-      "feed",
-      "share",
-    ],
-  },
   twitch: {
     component: LucideTwitch,
     tags: [
