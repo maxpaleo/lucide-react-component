@@ -500,6 +500,10 @@ import {
   LucideLaugh,
   LucideSmile,
   LucideMeh,
+  LucideTwitch,
+  LucideFacebook,
+  LucideYoutube,
+  LucideDribbble,
 } from "lucide-react";
 
 export type LucideIconType = {
@@ -2209,17 +2213,86 @@ const lucideIconMap = {
       "schedule",
     ],
   },
+  youtube: {
+    component: LucideYoutube,
+    tags: [
+      "logo",
+      "video",
+      "streaming",
+      "media",
+      "youtube",
+      "play",
+      "pause",
+      "stop",
+      "replay",
+      "rewind",
+      "fast forward",
+      "forward",
+      "backward",
+      "previous",
+      "next",
+      "loop",
+      "shuffle",
+      "repeat",
+    ],
+  },
+  facebook: {
+    component: LucideFacebook,
+    tags: [
+      "logo",
+      "social media",
+      "social",
+      "facebook",
+      "messenger",
+      "share",
+      "post",
+      "send",
+      "message",
+      "feed",
+      "share",
+    ],
+  },
+  dribble: {
+    component: LucideDribbble,
+    tags: [
+      "logo",
+      "social media",
+      "social",
+      "dribble",
+      "share",
+      "post",
+      "send",
+      "message",
+      "feed",
+      "share",
+    ],
+  },
+  twitch: {
+    component: LucideTwitch,
+    tags: [
+      "logo",
+      "social media",
+      "social",
+      "twitch",
+      "stream",
+      "live",
+      "broadcast",
+      "share",
+      "post",
+      "send",
+      "message",
+      "feed",
+      "share",
+    ],
+  },
   palette: {
     component: LucidePalette,
-
     tags: [],
   },
   "toy-brick": {
     component: LucideToyBrick,
-
     tags: [],
   },
-
   group: {
     component: LucideGroup,
     tags: [],
@@ -2236,7 +2309,6 @@ const lucideIconMap = {
     component: LucideUnlockKeyhole,
     tags: [],
   },
-
   "a-arrow-down": {
     component: LucideAArrowDown,
     tags: ["letter", "font size", "text", "formatting", "smaller"],
