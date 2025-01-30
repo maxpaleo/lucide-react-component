@@ -43,13 +43,22 @@ interface IconProps {
   strokeWidth?: number;
 }
 
-const Icon: React.FC<IconProps> = ({ icon = "chevron-right", size = 18, className = "", strokeWidth = 2 }) => {
+// const Icon: React.FC<IconProps> = ({ icon = "chevron-right", size = 18, className = "", strokeWidth = 2 }) => {
+//   const providedIcon = icon;
+//   const iconMap = lucideIconMap;
+//   const iconData = iconMap[providedIcon as LucideIconNames];
+//   if (!iconData) return null;
+//   const IconComponent = iconData.component;
+//   return <IconComponent size={size} className={className} strokeWidth={strokeWidth} />;
+// };
+
+function Icon({ icon = "chevron-right", size = 18, className = "", strokeWidth = 2 }: IconProps) {
   const providedIcon = icon;
   const iconMap = lucideIconMap;
   const iconData = iconMap[providedIcon as LucideIconNames];
   if (!iconData) return null;
   const IconComponent = iconData.component;
   return <IconComponent size={size} className={className} strokeWidth={strokeWidth} />;
-};
+}
 
 export default Icon;
