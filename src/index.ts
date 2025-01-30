@@ -1,6 +1,5 @@
 import Icon from "./Icon";
 import lucideIconMap, { LucideIconNames } from "./lucide-icon-config";
-
 /**
  * Lucide React Icon - A React component that displays a Lucide icon
  * @param icon - The icon to be displayed - All icons can be seen here: https://lucide.dev/icons/
@@ -14,5 +13,4 @@ import lucideIconMap, { LucideIconNames } from "./lucide-icon-config";
  * <Icon icon="icon" size={18} />
  */
 export default Icon;
-
 export { lucideIconMap, LucideIconNames };

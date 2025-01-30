@@ -47,12 +47,7 @@ const Icon: React.FC<IconProps> = ({ icon = "chevron-right", size = 18, classNam
   const providedIcon = icon;
   const iconMap = lucideIconMap;
   const iconData = iconMap[providedIcon as LucideIconNames];
-
-  if (!iconData) {
-    console.error(`Icon "${providedIcon}" not found.`);
-    return null;
-  }
-
+  if (!iconData) return null;
   const IconComponent = iconData.component;
   return <IconComponent size={size} className={className} strokeWidth={strokeWidth} />;
 };
