@@ -1,5 +1,5 @@
 import React from "react";
-import Icon from "../src";
+import Icon, { LucideIconNames } from "../build/index";
 
 const Page: React.FC = () => {
   return (

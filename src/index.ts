@@ -1,5 +1,5 @@
 import Icon from "./Icon";
-import lucideIconMap from "./lucide-icon-config";
+import lucideIconMap, { LucideIconNames } from "./lucide-icon-config";
 
 /**
  * Lucide React Icon - A React component that displays a Lucide icon
@@ -15,4 +15,4 @@ import lucideIconMap from "./lucide-icon-config";
  */
 export default Icon;
 
-export { lucideIconMap };
+export { lucideIconMap, LucideIconNames };
