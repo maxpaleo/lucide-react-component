@@ -529,6 +529,7 @@ import {
   LucideDroplet,
   LucideFish,
   LucideFuel,
+  LucidePlay,
 } from "lucide-react";
 
 export type LucideIconType = {
@@ -543,6 +544,9 @@ export type LucideIconType = {
  *
  */
 const lucideIconMap = {
+  play: {
+    component: LucidePlay,
+  },
   redo: {
     component: LucideRedo,
     tags: ["redo", "repeat", "refresh", "reload", "renew", "replay", "revert", "redo", "repeat", "refresh", "reload", "renew", "replay", "revert"],
