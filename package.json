@@ -1,6 +1,6 @@
 {
   "name": "lucide-icon-component",
-  "version": "1.0.22",
+  "version": "1.0.23",
   "description": "A React component for Lucide Icons",
   "main": "build/index.js",
   "directories": {
@@ -34,8 +34,11 @@
   "publishConfig": {
     "access": "public"
   },
+  "peerDependencies": {
+    "react": ">=18.0.0 <20.0.0",
+    "react-dom": ">=18.0.0 <20.0.0"
+  },
   "dependencies": {
-    "lucide-react": "0.474.0",
-    "react": "^19.0.0"
+    "lucide-react": "0.474.0"
   }
 }
