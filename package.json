@@ -1,6 +1,6 @@
 {
   "name": "lucide-icon-component",
-  "version": "1.0.21",
+  "version": "1.0.22",
   "description": "A React component for Lucide Icons",
   "main": "build/index.js",
   "directories": {
@@ -27,7 +27,7 @@
   "author": "Max Pauwels",
   "license": "ISC",
   "devDependencies": {
-    "@types/react": "^18.3.3",
+    "@types/react": "^19.0.0",
     "typescript": "^5.5.3"
   },
   "types": "build/index.d.ts",
@@ -35,7 +35,7 @@
     "access": "public"
   },
   "dependencies": {
-    "lucide-react": "^0.408.0",
-    "react": "^18.0.0"
+    "lucide-react": "0.474.0",
+    "react": "^19.0.0"
   }
 }
