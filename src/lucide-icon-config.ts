@@ -2604,6 +2604,7 @@ const lucideIconMap = {
   // Add more icons as needed
 } as const;
 
-export type LucideIconNames = keyof typeof lucideIconMap;
+type LucideIconNames = keyof typeof lucideIconMap;
 
 export default lucideIconMap;
+export type { LucideIconNames };

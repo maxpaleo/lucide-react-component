@@ -57,7 +57,7 @@ function Icon({ icon = "chevron-right", size = 18, className = "", strokeWidth =
   const providedIcon = icon;
   const iconMap = lucideIconMap;
   const iconData = lucideIconMap[icon];
-  if (!iconData || !iconData.component) return null;
+  if (!iconData) return null;
   const IconComponent = iconData.component;
   return <IconComponent size={size} className={className} strokeWidth={strokeWidth} />;
 }
