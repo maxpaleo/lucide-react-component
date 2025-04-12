@@ -56,8 +56,8 @@ interface IconProps {
 function Icon({ icon = "chevron-right", size = 18, className = "", strokeWidth = 2 }: IconProps) {
   const providedIcon = icon;
   const iconMap = lucideIconMap;
-  const iconData = lucideIconMap[icon];
-  if (!iconData) return null;
+  const iconData = iconMap[icon];
+  if (!iconData || !iconData.component) return null;
   const IconComponent = iconData.component;
   return <IconComponent size={size} className={className} strokeWidth={strokeWidth} />;
 }
